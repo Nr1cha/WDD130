@@ -1,0 +1,10 @@
+#active {
+    background-color: black;
+    color: aquamarine;
+}
+body{
+    background-color: grey;
+}
+nav a {
+    padding: .5rem 1.5rem;
+}
