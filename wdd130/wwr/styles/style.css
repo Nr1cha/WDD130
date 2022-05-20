@@ -1,3 +1,8 @@
+.home-title {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -7,11 +12,16 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: whitesmoke;
+  padding: 35px;
 }
 
 nav a:hover {
   background-color: black;
   color: white;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 #hero-img {
@@ -34,6 +44,9 @@ h4 {
 main section {
   text-align: center;
 }
+main section img {
+  box-sizing: border-box;
+}
 
 #background {
   height: 725px;
@@ -42,6 +55,9 @@ main section {
 
 body {
   background-color: #fcfbfb;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -50,9 +66,13 @@ header {
 
 .book,
 .join {
+  font-size: 18px;
   background-color: rgb(123, 255, 0);
   color: green;
   text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover,
@@ -61,8 +81,17 @@ header {
   color: black;
 }
 
+.rivers-card, .camping-card, .rapids-card, .mountains {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid black;
+}
+
 .msg {
   background-color: aquamarine;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
@@ -71,6 +100,8 @@ header {
 
 .msg p {
   color: green;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 .home-title {
@@ -81,9 +112,17 @@ header {
 .icon {
   width: 80px;
 }
+.icon{
+  padding-top: 10px;
+}
 
 footer {
   background-color: brown;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer .social img {
+  padding-top: 15px;
 }
 
 footer h3 {
