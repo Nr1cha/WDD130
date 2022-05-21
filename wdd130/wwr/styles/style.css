@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+
 .home-title {
   font-size: 2em;
   margin-top: 10px;
+  font-family: "Rock Salt";
 }
 
 #content {
@@ -96,6 +100,7 @@ header {
 
 .msg h2 {
   color: green;
+  font-family: "Rock Salt";
 }
 
 .msg p {
