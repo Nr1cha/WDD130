@@ -151,9 +151,9 @@ header {
   transform: scale(1.1);
 }
 
-.card-img, .mountains {
-  /* width: 100%; */
-}
+/* .card-img, .mountains {
+  width: 100%;
+} */
 
 .msg {
   background-color: #6f7364;
