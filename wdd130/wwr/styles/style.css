@@ -25,7 +25,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: black;
+  background-color: rgb(52, 52, 79);
   color: white;
 }
 
@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 h4 {
-  color: green;
+  color: #E7C24F;
 }
 
 .button-box {
@@ -95,14 +95,15 @@ body {
 header {
   display: grid;
   grid-template-columns: 150px auto;
-  background-color: rgba(20, 30, 13, .7);
+  background-color: #396E94;
+  opacity: 0.9;
 }
 
 .book,
 .join {
   font-size: 18px;
-  background-color: rgb(123, 255, 0);
-  color: green;
+  background-color: #E7C24F;
+  color: black;
   text-decoration: none;
   padding: 15px 30px;
   margin-top: 50px;
@@ -111,7 +112,7 @@ header {
 
 .book:hover,
 .join:hover {
-  background-color: blueviolet;
+  background-color: #BA5624;
   color: black;
 }
 
@@ -151,12 +152,12 @@ header {
   transform: scale(1.1);
 }
 
-/* .card-img, .mountains {
+.card-img, .mountains {
   width: 100%;
-} */
+}
 
 .msg {
-  background-color: #6f7364;
+  background-color: #396E94;
   line-height: 1.5em;
   padding: 35px;
   grid-column: 6/10;
@@ -165,23 +166,23 @@ header {
 }
 
 .msg h2 {
-  color: black;
+  color: white;
   font-family: "Rock Salt";
 }
 
 .msg p {
-  color: black;
+  color: white;
   font-size: .8em;
   padding-bottom: 15px;
 }
 
 .home-grid {
   display: grid;
-  grid-template-columns: 10fr;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 .home-title {
-  color: green;
+  color: #E7C24F;
 }
 
 .logo,
@@ -193,7 +194,7 @@ header {
 }
 
 footer {
-  background-color: #6f7364;
+  background-color: #396E94;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -205,7 +206,7 @@ footer .social img {
 }
 
 footer h3 {
-  color: rgb(25, 28, 25);
+  color: white;
 }
 
 footer h3 a:hover {
@@ -213,12 +214,12 @@ footer h3 a:hover {
 }
 
 footer a {
-  color: rgb(25, 28, 25);
+  color: white;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: purple;
+  color: #BA5624;
 }
 
 @media screen and (max-width: 900px) {
