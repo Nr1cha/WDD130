@@ -12,6 +12,7 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -66,13 +67,10 @@ h4 {
   color: #E7C24F;
 }
 
-.button-box {
-  text-align: center;
-}
-
 main section {
   text-align: center;
 }
+
 main section img {
   box-sizing: border-box;
 }
@@ -89,11 +87,6 @@ main section img {
   background-color: #6f7364;
 }
 
-.msg-2 {
-  float: right;
-  grid-column: 6/11;
-  grid-row: 1/1;
-}
 .background-1 {
   float: right;
   grid-column: 6/11;
@@ -138,7 +131,7 @@ header {
   color: black;
 }
 
-.rivers-card, .camping-card, .rapids-card, .mountains {
+.rivers-card, .camping-card, .rapids-card, .mountains-2 {
   margin: 200px 0;
 }
 
@@ -155,7 +148,7 @@ header {
   grid-row: 2/3;
 }
 
-.mountains{
+.mountains-2{
   width: 100%;
   grid-column: 2/7;
   grid-row: 5/8;
@@ -173,42 +166,16 @@ header {
   transform: scale(1.1);
 }
 
-.card-img, .mountains {
+.card-img, .mountains-2 {
   width: 100%;
 }
 
 .mountains-2 {
-  width: 50%;
+  width: 100%;
   float: right;
-  grid-column: 6/11;
-  grid-row: 1/2;
-  /* z-index: 99; */
-}
-
-.msg {
-  background-color: #396E94;
-  line-height: 1.5em;
-  padding: 35px;
   grid-column: 6/10;
-  grid-row: 6/7;
-  box-shadow: 5px 5px 10px #6f7364;
-}
-
-.msg-2 {
-  float: right;
-  grid-column: 6/11;
-  grid-row: 1/1;
-}
-
-.msg h2 {
-  color: white;
-  font-family: "Rock Salt";
-}
-
-.msg p {
-  color: white;
-  font-size: .8em;
-  padding-bottom: 15px;
+  grid-row: 1/2;
+  z-index: 99;
 }
 
 .home-grid {
@@ -216,6 +183,9 @@ header {
   grid-template-columns: repeat(10, 1fr);
 }
 
+.side-paragraph {
+    padding: 2em;
+}
 .home-title {
   color: #E7C24F;
 }
@@ -289,7 +259,7 @@ footer a:hover {
   #background {
       display: none;
   }
-  .mountains, .msg {
+  .mountains-2 {
       width: 80%;
       display: block;
       margin: 0 auto;
