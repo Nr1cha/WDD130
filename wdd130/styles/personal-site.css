@@ -90,6 +90,7 @@ main section img {
 
 body {
     background-color: #fcfbfb;
+    /* background-color: black; */
     font-family: "raleway";
     font-size: 22px;
     font-weight: bold;
@@ -104,11 +105,52 @@ body {
     margin-right: auto;
 }
 
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 80%;
+}
+
 .mainPic {
     display: inherit;
     margin-left: auto;
     margin-right: auto;
+    width: inherit;
 }
+
+.overlay {
+    display: inherit;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    width: inherit;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
 
 
 /* MAIN SECTION WITH PARAGRAPHS */
