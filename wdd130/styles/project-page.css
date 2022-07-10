@@ -86,9 +86,9 @@ body {
 }
 
 header {
+    background-color: #69747C;
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #545454;
     opacity: 0.9;
 }
 
