@@ -86,7 +86,7 @@ body {
 }
 
 header {
-    background-color: #69747C;
+    background-color: #545454;
     display: grid;
     grid-template-columns: 150px auto;
     opacity: 0.9;
@@ -102,7 +102,7 @@ header {
 }
 
 footer {
-    background-color: #69747C;
+    background-color: #545454;
     padding: 25px 50px;
     /* margin-top: 2px; */
     display: flex;

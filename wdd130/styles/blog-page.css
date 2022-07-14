@@ -25,7 +25,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(52, 52, 79);
+  background-color: #84DD63;
   color: white;
 }
 
@@ -90,9 +90,9 @@ body {
 }
 
 header {
+  background-color: #545454;
   display: grid;
   grid-template-columns: 150px auto;
-  background-color: #396E94;
   opacity: 0.9;
 }
 
@@ -191,7 +191,7 @@ header {
 }
 
 footer {
-  background-color: #396E94;
+  background-color: #545454;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -216,7 +216,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #BA5624;
+  color: #CBFF4D;
 }
 
 @media screen and (max-width: 900px) {
