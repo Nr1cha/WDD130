@@ -118,9 +118,23 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: inherit;
+    /* display: inherit; */
+    position: absolute;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    height: auto;
+    /* width: auto; */
+    /* width: inherit; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #69747C;
 }
 
-.overlay {
+/* .overlay {
     display: inherit;
     position: absolute;
     margin-left: auto;
@@ -135,9 +149,13 @@ body {
     opacity: 0;
     transition: .5s ease;
     background-color: #69747C;
-}
+} */
 
-.container:hover .overlay {
+/* .container:hover .overlay {
+    opacity: 1;
+} */
+
+.container:hover .mainPic {
     opacity: 1;
 }
 
@@ -280,11 +298,6 @@ footer {
 
 footer .social img {
     padding-top: 15px;
-}
-
-.social {
-    height: 79;
-    width: 64;
 }
 
 footer h3 {
