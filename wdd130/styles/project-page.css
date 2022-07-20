@@ -66,6 +66,7 @@ body {
 
 .grid-container {
     display: grid;
+    margin: auto;
     margin-top: inherit;
     margin-bottom: inherit;
     gap: 50px 100px;
@@ -75,6 +76,7 @@ body {
     padding: 10px;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 85%;
 }
 
 .grid-item {
