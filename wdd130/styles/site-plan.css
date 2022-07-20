@@ -110,7 +110,7 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
-nav {
+/* nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
@@ -134,6 +134,23 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+} */
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  font-family: "chakra petch";
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: #84DD63;
+  color: white;
 }
 
 .sitemap {
@@ -183,4 +200,34 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+footer {
+  background-color: #545454;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+footer h3 {
+  color: white;
+}
+
+footer h3 a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #CBFF4D;
 }
