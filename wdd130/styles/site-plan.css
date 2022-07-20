@@ -22,13 +22,17 @@ font-family: 'Raleway', sans-serif; PARAGRAPH FONT
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Chakra Petch";
-  --paragraph-font: Raleway,  sans-serif;
+  --paragraph-font: Raleway, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --headline-color-on-white: #396E94;
+  /* headlines on a white background */
+  --headline-color-on-color: white;
+  /* headlines on a colored background */
+  --paragraph-color-on-white: #396E94;
+  /* paragraph text on a white background */
+  --paragraph-color-on-color: white;
+  /* paragraph text on a colored background */
   --paragraph-background-color: #396E94;
   --nav-link-color: #396E94;
   --nav-background-color: #D4AC0D;
@@ -46,31 +50,61 @@ body {
   font-size: 18px;
   text-align: center;
 }
+
 img {
   display: block;
   margin: 0 auto;
 
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
+
 h2 {
   text-align: center;
 }
+
 hr {
   height: 3px;
   margin: 35px 0;
   background: var(--accent1-color);
 }
+
 header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
-header > h1, header > h2 {
+
+header>h1,
+header>h2 {
   color: var(--headline-color-on-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  font-family: "chakra petch";
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: #84DD63;
+  color: white;
 }
 
 p {
@@ -78,16 +112,19 @@ p {
   color: var(--paragraph-color);
   padding: 1em;
 }
+
 .colors {
   width: 100%;
   min-width: 350px;
   margin: 30px auto;
   text-align: center;
 }
+
 .colors th {
   background-color: #999;
 }
-.colors td{
+
+.colors td {
   width: 25%;
   height: 3em;
 }
@@ -95,13 +132,16 @@ p {
 .primary {
   background-color: var(--primary-color);
 }
+
 .secondary {
   background-color: var(--secondary-color);
 }
+
 .accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
+
+.accent2 {
   background-color: var(--accent2-color);
 }
 
@@ -135,23 +175,6 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 } */
-nav {
-  display: flex;
-  justify-content: space-around;
-}
-
-nav a {
-  font-family: "chakra petch";
-  text-align: center;
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 35px;
-}
-
-nav a:hover {
-  background-color: #84DD63;
-  color: white;
-}
 
 .sitemap {
   display: grid;
@@ -164,21 +187,25 @@ nav a:hover {
     ". left left right right ."
     "page2 page2 . . page3 page3";
 }
-.sitemap > div {
+
+.sitemap>div {
 
   text-align: center;
 
 }
+
 .sm-home {
   grid-area: home;
   background-color: #ccc;
   line-height: 3em;
 }
+
 .sm-page2 {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
 }
+
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;
