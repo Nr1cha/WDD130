@@ -280,6 +280,9 @@ footer {
 
 footer .social img {
     padding-top: 15px;
+}
+
+.social {
     height: 79;
     width: 64;
 }
