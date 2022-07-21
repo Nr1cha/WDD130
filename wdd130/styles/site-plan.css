@@ -56,15 +56,12 @@ main {
   margin-right: auto;
 }
 
-main > img {
+body > div > main > img {
   width: 100%;
 }
 
 img {
-  /* display: block; */
   margin: 0 auto;
-  width: 100%;
-
 }
 
 h1,
