@@ -50,6 +50,16 @@ body {
   text-align: center;
 }
 
+main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main > img {
+  width: 100%;
+}
+
 img {
   /* display: block; */
   margin: 0 auto;
